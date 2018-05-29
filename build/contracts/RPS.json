@@ -1,0 +1,181 @@
+{
+  "contractName": "RPS",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3006080604052600080fd00a165627a7a72305820f0b6fd276103c2bb15a354f3fb2f5feb81960c774319aed562d69b51ff81fe300029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a72305820f0b6fd276103c2bb15a354f3fb2f5feb81960c774319aed562d69b51ff81fe300029",
+  "sourceMap": "26:58:1:-;;;43:39;8:9:-1;5:2;;;30:1;27;20:12;5:2;43:39:1;26:58;;;;;;",
+  "deployedSourceMap": "26:58:1:-;;;;;",
+  "source": "pragma solidity ^0.4.4;\n\n\ncontract RPS {\n  function RPS() {\n    // constructor\n  }\n}\n",
+  "sourcePath": "/Users/randallkanna/Documents/code/eth/rps/contracts/RPS.sol",
+  "ast": {
+    "absolutePath": "/Users/randallkanna/Documents/code/eth/rps/contracts/RPS.sol",
+    "exportedSymbols": {
+      "RPS": [
+        63
+      ]
+    },
+    "id": 64,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 63,
+        "linearizedBaseContracts": [
+          63
+        ],
+        "name": "RPS",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "58:24:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 62,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "RPS",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "55:2:1"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "58:0:1"
+            },
+            "scope": 63,
+            "src": "43:39:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 64,
+        "src": "26:58:1"
+      }
+    ],
+    "src": "0:85:1"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/randallkanna/Documents/code/eth/rps/contracts/RPS.sol",
+    "exportedSymbols": {
+      "RPS": [
+        63
+      ]
+    },
+    "id": 64,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 58,
+        "literals": [
+          "solidity",
+          "^",
+          "0.4",
+          ".4"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:1"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 63,
+        "linearizedBaseContracts": [
+          63
+        ],
+        "name": "RPS",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 61,
+              "nodeType": "Block",
+              "src": "58:24:1",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 62,
+            "implemented": true,
+            "isConstructor": true,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "RPS",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 59,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "55:2:1"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 60,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "58:0:1"
+            },
+            "scope": 63,
+            "src": "43:39:1",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 64,
+        "src": "26:58:1"
+      }
+    ],
+    "src": "0:85:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.23+commit.124ca40d.Emscripten.clang"
+  },
+  "networks": {
+    "1527565134593": {
+      "events": {},
+      "links": {},
+      "address": "0x1bf302e89eb1146df17631a13d40aa6fa814670e",
+      "transactionHash": "0x996d101865989b668f07641ea5f4c594be1bbbd8ea7f4c1e853deb34c4bd602b"
+    }
+  },
+  "schemaVersion": "2.0.0",
+  "updatedAt": "2018-05-29T03:44:57.705Z"
+}
